@@ -1,8 +1,10 @@
 # Vectors
 
-Vector is a dynamically allocated array which can increase or decrease in size. It is a part of the STL
+Vector is a dynamically allocated array which can increase or decrease in size. Elements in vector are stored in contagious storage locations. It is a part of the STL
 
 In an array, when we want to add or remove an element, we have to again reallocate the array at different memory location copy all the elements to that array. This is time consuming. Thus, vectors won't reallocate every time we add or remove an element.
+
+_header file to be included is <vector>_
 
 ## Syntax:
 
