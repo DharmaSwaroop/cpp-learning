@@ -14,6 +14,7 @@ int main()
     v2.push_back({3, 2});  // You need to give the {} while using push_back for pairs
     v2.emplace_back(1, 4); // Here no need to give the {} for emplace back
 
+    // NOTE: vector does not support front functions since it is a dynamic array and inserting at the front requires reallocation of the array which can be costly
     vector<int> v4(v3);
 
     vector<pair<int, int>>::iterator it2 = v2.begin(); // Here it2 is the pointer pointing to the first pair in the vector v2
