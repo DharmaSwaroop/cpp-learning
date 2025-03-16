@@ -80,7 +80,7 @@ list<type> l(l2.begin(),l2.end());        // Copying from another list of same t
 
 - **emplace()** - Inserts an element at the required location or address in the list. It is more efficient than insert as it creates the object in place. Constructs the element in place, avoiding an unnecessary copy or move operation.
 
-  Complexity: O(1) if inserting at begin() or end(), O(n) in the worst case.
+  Complexity: O(1) if inserting at begin() or end(), O(n) in the worst case.  
   Syntax:
 
   ```
@@ -90,7 +90,7 @@ list<type> l(l2.begin(),l2.end());        // Copying from another list of same t
 
 - **erase()** - Removes an element at the required location or address in the list. Needs iterator pointing to the location at which the element to be deleted is present.
 
-  Complexity: O(1) for erasing a single element, O(n) when erasing a range of elements.
+  Complexity: O(1) for erasing a single element, O(n) when erasing a range of elements.  
   Syntax:
 
   ```
