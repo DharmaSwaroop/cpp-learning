@@ -10,7 +10,7 @@ _header file to be included is `<stack>`_
 
 ```
 stack<type> st;
-stack<type> st2(st1);                       // Initialize all the values with single value
+stack<type> st2(st1);                       // Copy constructor. Copies elements of st1 to st2.
 ```
 
 ## Most used functions in stack:
@@ -40,7 +40,7 @@ stack<type> st2(st1);                       // Initialize all the values with si
   st.pop();
   ```
 
-- **emplace()** - Works similar to push, but faster. Constructs an element in place
+- **emplace()** - Works similar to push, but faster. Constructs an element in place  
   Complexity: O(1)  
   Syntax:
 
