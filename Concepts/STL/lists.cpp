@@ -8,7 +8,7 @@ int main()
     list<int> l1;
     list<int> l2 = {1, 2, 3};
     list<int> l3(5, 100);
-    list<pair<int, int>> l4 = {{1, 2}, {3, 4}};
+    list<pair<int, int> > l4 = {{1, 2}, {3, 4}};
     list<float> l6;
     list<int> l5(l1);
 

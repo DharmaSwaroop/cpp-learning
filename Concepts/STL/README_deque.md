@@ -4,7 +4,7 @@ Double ended Queues are sequence containers with dynamic sizes and with feature 
 
 It is generally implemented in the form of a dynamic array of fixed-size memory blocks. Random access is allowed, but insertions in the middle of a deque are slower compared to lists due to element shifting. In lists (std::list), we can insert elements anywhere in O(1) time by adjusting pointers, unlike deque where shifting may be required.
 
-_header file to be included is <deque>_
+_header file to be included is `<deque>`_
 
 ## Syntax:
 
